@@ -1,0 +1,3 @@
+# Python helper/test dependencies only. External annotation tools are separate.
+biopython>=1.85,<2
+PyYAML>=6,<7

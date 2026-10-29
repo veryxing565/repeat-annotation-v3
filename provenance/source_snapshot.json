@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "collected_date": "2026-10-29",
+  "workflow_source": "current outgroup v3 production workflow",
+  "original_runner_sha256": "de7c6aa5fa32fbf6e60a479c85ceaa25b95cd1d843a7df85c5a79fb54bf89c80",
+  "original_runner_last_modified_utc": "2026-10-21T00:48:41Z",
+  "source_files": [
+    {
+      "relative_path": "patched_tools/LTR_FINDER_parallel/LICENSE",
+      "sha256": "a70b6e00200fd975c325dfa99622d8e8ff1bcccb0487a8959be7ab9f4c4e0244",
+      "bytes": 1087
+    },
+    {
+      "relative_path": "patched_tools/LTR_FINDER_parallel/LTR_FINDER_parallel",
+      "sha256": "d36cd8b15fad955e460aa93d2c237205b47d2604f3197ee8b8f10d081f1fd79d",
+      "bytes": 11386
+    },
+    {
+      "relative_path": "patched_tools/LTR_FINDER_parallel/bin/convert_ltr_finder2.pl",
+      "sha256": "849ad987ce0a87cc29ee674cce5b4039878c73419b4765856be4d0c71a4d73af",
+      "bytes": 1427
+    },
+    {
+      "relative_path": "patched_tools/LTR_FINDER_parallel/bin/cut.pl",
+      "sha256": "e91360b7acdd08752cecf35971b6aa07eb8bb127eefec38d7caf6a7bb0b73189",
+      "bytes": 2304
+    },
+    {
+      "relative_path": "patched_tools/LTR_HARVEST_parallel/LICENSE",
+      "sha256": "a70b6e00200fd975c325dfa99622d8e8ff1bcccb0487a8959be7ab9f4c4e0244",
+      "bytes": 1087
+    },
+    {
+      "relative_path": "patched_tools/LTR_HARVEST_parallel/LTR_HARVEST_parallel",
+      "sha256": "9e85e3b65b8195012ce37209af89c20f358f161d3e14c95e9581ad1ea9b76b66",
+      "bytes": 12338
+    },
+    {
+      "relative_path": "patched_tools/LTR_HARVEST_parallel/bin/cut.pl",
+      "sha256": "e91360b7acdd08752cecf35971b6aa07eb8bb127eefec38d7caf6a7bb0b73189",
+      "bytes": 2304
+    },
+    {
+      "relative_path": "run_te_annotation_v3.sh",
+      "sha256": "de7c6aa5fa32fbf6e60a479c85ceaa25b95cd1d843a7df85c5a79fb54bf89c80",
+      "bytes": 17482
+    },
+    {
+      "relative_path": "scripts/batch_runner.sh",
+      "sha256": "6d4748d86f30ec54d433aa002aa21d95c27273b91bb8b50d2afb5f91664b8ea2",
+      "bytes": 2596
+    },
+    {
+      "relative_path": "scripts/fasta_ids.py",
+      "sha256": "c1b9473dde9bd2d1f8281a43ac88f8744e195e906ffcdcec43c2e26b91c73efa",
+      "bytes": 4672
+    },
+    {
+      "relative_path": "scripts/library_ops.py",
+      "sha256": "16be2f3abd064237f89d53eaae5e1d0320ef9ae99e1e5b61087c4cf90c780616",
+      "bytes": 12500
+    },
+    {
+      "relative_path": "scripts/make_teclass_config.py",
+      "sha256": "d6e54ed01a07167ba1d003e156f50b516f6f0a63f1d1a19f8ee92035003bb381",
+      "bytes": 817
+    }
+  ],
+  "dependency_package_metadata": [
+    {
+      "name": "biopython",
+      "version": "1.88",
+      "build": "py310h7c4b9e2_0",
+      "sha256": "17202a3145fd8ad7662d6a2fa3e942b372af12199299ad4463b9967f4cd8a38a"
+    },
+    {
+      "name": "cd-hit",
+      "version": "4.8.1",
+      "build": "h5ca1c30_13",
+      "sha256": "8793a98a7c93b9ade5caaa85e6eeccec69d774c197b772a8132373de2d6ce8e1"
+    },
+    {
+      "name": "genometools-genometools",
+      "version": "1.6.6",
+      "build": "py310he902909_1",
+      "sha256": "010d9325b1e9508510c0840fab1f8470357873161fa420b780ef6ed9adafd9ac"
+    },
+    {
+      "name": "hmmer",
+      "version": "3.4",
+      "build": "h7d74f8d_5",
+      "sha256": "b0ea2115beb20bbd3fe63dd8e41bfc29eab42a0c3982f91f0e018840567f37b6"
+    },
+    {
+      "name": "ltr_finder",
+      "version": "1.07",
+      "build": "h9948957_5",
+      "sha256": "974b52528efaef3a29ba9eecbd2ba0dcd81e50f8ce6be9c6bba92d65840fe466"
+    },
+    {
+      "name": "ltr_retriever",
+      "version": "3.0.5",
+      "build": "hdfd78af_0",
+      "sha256": "ab6d243798f806e965a7ebcd1f053fe425483a0984cbc8cd98cea720c9f07dd0"
+    },
+    {
+      "name": "mafft",
+      "version": "7.526",
+      "build": "h4bc722e_0",
+      "sha256": "e307b4d817c5f1d1173896d8d54b1b11761b0fc7889bf618ff59dd6407b11d36"
+    },
+    {
+      "name": "numpy",
+      "version": "1.26.4",
+      "build": "py310hb13e2d6_0",
+      "sha256": "028fe2ea8e915a0a032b75165f11747770326f3d767e642880540c60a3256425"
+    },
+    {
+      "name": "pandas",
+      "version": "2.3.3",
+      "build": "py310h0158d43_2",
+      "sha256": "b9e88fa02fd5e99f54c168df622eda9ddf898cc15e631179963aca51d97244bf"
+    },
+    {
+      "name": "python",
+      "version": "3.10.20",
+      "build": "h267e890_1_cpython",
+      "sha256": "c15d8585b7a52fdb734bd16dbdcae4b81ed59268862d3a2588eb8ed69c8cbc52"
+    },
+    {
+      "name": "pytorch",
+      "version": "2.13.0",
+      "build": "cpu_mkl_py310_h4f736ff_102",
+      "sha256": "5003bae8dc8e492fe4b0e9362f1569e0c690824933157fa5bf1ec875f2cdc0ee"
+    },
+    {
+      "name": "recon",
+      "version": "1.10",
+      "build": "hab16a5f_1",
+      "sha256": "47a15df3165e41ff80cee692c5ec26db6eda5d388142d9954706023644fb3cc7"
+    },
+    {
+      "name": "repeatmasker",
+      "version": "4.2.4",
+      "build": "pl5321hdfd78af_0",
+      "sha256": "84794a1cd3d7407ef5bf9e1115bfed7aefd27e94849df1bf20ee85a80749719a"
+    },
+    {
+      "name": "repeatscout",
+      "version": "1.0.7",
+      "build": "h7b50bb2_1",
+      "sha256": "5b616b6c4adaa347a34619c446f02cc392dc674ea5328a4fcf7e5884fa18be79"
+    },
+    {
+      "name": "rmblast",
+      "version": "2.17.0",
+      "build": "hbfc2172_1",
+      "sha256": "1bc0134c77d9ae142af376572f324888722af06790035b97749ab62537f7b83a"
+    },
+    {
+      "name": "transformers",
+      "version": "4.17.0",
+      "build": "pyhd8ed1ab_0",
+      "sha256": "edc16f4757e99a1c551a35891aea3906a4f2796fadbb64e6528ddbc9519e74a4"
+    },
+    {
+      "name": "pyyaml",
+      "version": "6.0.3",
+      "build": "py310h3406613_1",
+      "sha256": "f23de6cc72541c6081d3d27482dbc9fc5dd03be93126d9155f06d0cf15d6e90e"
+    }
+  ],
+  "repeatmodeler": {
+    "version": "2.0.1",
+    "evidence": "actual production job startup log headers, two completed samples",
+    "execution": "local user-supplied SIF",
+    "sif_sha256": null,
+    "base_image_label": "kanghu/hite:3.3.3",
+    "note": "Only RepeatModeler/BuildDatabase were called, not HiTE; host RepeatModeler 2.0.9 was not the invoked version."
+  },
+  "apptainer_version": "1.5.2",
+  "teclass2": {
+    "source_repository": "https://github.com/IOB-Muenster/TEclass2",
+    "git_commit": null,
+    "entrypoint_sha256": "3519a010d8f1dc5f616354c283ce792dfe36d83c14125837831f3fa4d4619232",
+    "model_name": "clust_cats_16",
+    "kmer_size": 5,
+    "model_weights": {
+      "path": "models/clust_cats_16/pytorch_model.bin",
+      "bytes": 298776589,
+      "sha256": "e3ead17f7d5910544a71dce22c13517c06749051a6b90fa31f64b88e4df542f0"
+    },
+    "supporting_files": [
+      {
+        "path": "models/clust_cats_16/config.json",
+        "bytes": 1489,
+        "sha256": "c8be48231a0f6fa4dd52c7f3989034964fbbcfcc69885ffe098876ce9f40002b"
+      },
+      {
+        "path": "config.yml",
+        "bytes": 3264,
+        "sha256": "c5bb24ac67236ba5539f895a2354d147c66e3939b14191feb0a57a372cdb7818"
+      },
+      {
+        "path": "data/vocabs/5mer_vocab.json",
+        "bytes": 42721,
+        "sha256": "695a86558491fbf33268944c2a76e44affcf80638ae00f4d220e5b7d2d85b5e7"
+      },
+      {
+        "path": "data/vocabs/5mer_vocab.txt",
+        "bytes": 18779,
+        "sha256": "24624d8a605a563b37ba97cb9a07f8eaad0f33ef421a80353d96dfacc3e6aedd"
+      }
+    ],
+    "support_source_fingerprints": [
+      {
+        "path": "dnaformer/tokenizer.py",
+        "bytes": 1104,
+        "sha256": "3e6f2bfa12a6e920951615f12b500bda8ac745674c606b6934819664bed741b7",
+        "reference": "line 13 loads data/vocabs/<kmer_size>mer_vocab.json"
+      },
+      {
+        "path": "dnaformer/model_definitions.py",
+        "bytes": 5887,
+        "sha256": "5ca27cc760226750fcd39cc9f7419db22f3bbb32f37be2b1362e297cb86bf17a",
+        "reference": "line 10 calls load_vocab(data/vocabs/<kmer_size>mer_vocab)"
+      },
+      {
+        "path": "utils/io_handler.py",
+        "bytes": 5364,
+        "sha256": "18a94de7386453115eabcd18330825b510e3357034e1720c651fb216377feb13",
+        "reference": "load_vocab appends .txt"
+      }
+    ]
+  },
+  "portability_changes": [
+    "configurable paths and CPU budget",
+    "optional native RepeatModeler 2.0.1",
+    "owned cleanup and checksum-based reuse",
+    "unsafe IDs additionally remapped",
+    "malformed prediction/cluster output checks"
+  ],
+  "scope": "Historical component metadata and fingerprints, not a fully solved environment or whole-container lock."
+}

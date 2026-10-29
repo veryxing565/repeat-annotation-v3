@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.pl text eol=lf
+LTR_FINDER_parallel text eol=lf
+LTR_HARVEST_parallel text eol=lf

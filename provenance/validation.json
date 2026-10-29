@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-29",
+  "platform": "Linux x86-64",
+  "python": "3.10 reference environment",
+  "cpu_budget": 4,
+  "unittest": {
+    "passed": 55,
+    "skipped": 0,
+    "failed": 0,
+    "seconds": 29.848
+  },
+  "syntax_checks": [
+    {
+      "name": "bash_runner",
+      "exit_code": 0
+    },
+    {
+      "name": "bash_batch",
+      "exit_code": 0
+    },
+    {
+      "name": "perl_1",
+      "exit_code": 0
+    },
+    {
+      "name": "perl_2",
+      "exit_code": 0
+    },
+    {
+      "name": "perl_3",
+      "exit_code": 0
+    },
+    {
+      "name": "perl_4",
+      "exit_code": 0
+    },
+    {
+      "name": "perl_5",
+      "exit_code": 0
+    }
+  ],
+  "real_biological_workflow_executed": false,
+  "mock_integration_tests": 6,
+  "github_actions_executed": false,
+  "tested_archive_sha256": "942c72f820ce31e61a79dd00bee7808a3cbcbbd9cdc0f333656d633363791859",
+  "tested_code": [
+    {
+      "path": "config/config.example.sh",
+      "bytes": 1528,
+      "sha256": "dc7a951b80433fa6ef4badb50794931369b7ba49a06fd0274e3a34b54b8045ca"
+    },
+    {
+      "path": "patched_tools/LTR_FINDER_parallel/bin/convert_ltr_finder2.pl",
+      "bytes": 1427,
+      "sha256": "849ad987ce0a87cc29ee674cce5b4039878c73419b4765856be4d0c71a4d73af"
+    },
+    {
+      "path": "patched_tools/LTR_FINDER_parallel/bin/cut.pl",
+      "bytes": 2304,
+      "sha256": "e91360b7acdd08752cecf35971b6aa07eb8bb127eefec38d7caf6a7bb0b73189"
+    },
+    {
+      "path": "patched_tools/LTR_FINDER_parallel/LTR_FINDER_parallel",
+      "bytes": 11386,
+      "sha256": "d36cd8b15fad955e460aa93d2c237205b47d2604f3197ee8b8f10d081f1fd79d"
+    },
+    {
+      "path": "patched_tools/LTR_HARVEST_parallel/bin/cut.pl",
+      "bytes": 2304,
+      "sha256": "e91360b7acdd08752cecf35971b6aa07eb8bb127eefec38d7caf6a7bb0b73189"
+    },
+    {
+      "path": "patched_tools/LTR_HARVEST_parallel/LTR_HARVEST_parallel",
+      "bytes": 12338,
+      "sha256": "9e85e3b65b8195012ce37209af89c20f358f161d3e14c95e9581ad1ea9b76b66"
+    },
+    {
+      "path": "run_te_annotation_v3.sh",
+      "bytes": 20463,
+      "sha256": "ebd87520c590cf0402eeb27f48ce34e8f8f22eac924fe608230d41a0ff371f0a"
+    },
+    {
+      "path": "scripts/batch_runner.sh",
+      "bytes": 3231,
+      "sha256": "02c76e3c910409f47a4925dce8d2c5cfee5d96972a48a6e5180b61757dec9faa"
+    },
+    {
+      "path": "scripts/build_release.py",
+      "bytes": 4409,
+      "sha256": "95cf8fad00ffc6f91984a675ad60aaab96f3c58926ebb0846889295c79dfb934"
+    },
+    {
+      "path": "scripts/fasta_ids.py",
+      "bytes": 4835,
+      "sha256": "7589f98bc8607fc6bfc03424960a6a4cdb39c8f0909bad036634b4701aa1bfff"
+    },
+    {
+      "path": "scripts/library_ops.py",
+      "bytes": 13140,
+      "sha256": "3f9fe4b2e8da03132265900f507e5e446bfbdf69b0ba33694bad1a6c9a491e50"
+    },
+    {
+      "path": "scripts/make_teclass_config.py",
+      "bytes": 817,
+      "sha256": "d6e54ed01a07167ba1d003e156f50b516f6f0a63f1d1a19f8ee92035003bb381"
+    },
+    {
+      "path": "scripts/runtime.py",
+      "bytes": 13357,
+      "sha256": "2741579c7fbb1f2b116835a64ede8ea9aaf091d729866a45d709917b9c25391c"
+    },
+    {
+      "path": "tests/__init__.py",
+      "bytes": 72,
+      "sha256": "c9451ad0c036000f7ee6c41807e58ac5ff3ae72266303e082e5475c920156d57"
+    },
+    {
+      "path": "tests/test_build_release.py",
+      "bytes": 2398,
+      "sha256": "26502729a57345812071d5b57cd3bfe2090b8354b646eaa2d22616c1cd6a8d78"
+    },
+    {
+      "path": "tests/test_fasta_ids.py",
+      "bytes": 5476,
+      "sha256": "a33389b96762485d6c446d27db0ba5e55fa8c08685a1808cccc1f79309c2e7b5"
+    },
+    {
+      "path": "tests/test_library_ops.py",
+      "bytes": 11525,
+      "sha256": "e328a53d51ec13737af0a32fec73beb809c87f6c82a941000d4f4a321dae2a0f"
+    },
+    {
+      "path": "tests/test_ltr_patch.py",
+      "bytes": 2536,
+      "sha256": "dd41883957b378f487e20dfc67c20504c0ce93f539fca45e96016fe5bfabe94a"
+    },
+    {
+      "path": "tests/test_pipeline_mock.py",
+      "bytes": 14651,
+      "sha256": "4442ba231a9354ea58fb42042a3d058593c18164f0aed586e6779d026c4ec93f"
+    },
+    {
+      "path": "tests/test_runtime.py",
+      "bytes": 10266,
+      "sha256": "d9182eb1552d3c10ec296f49adc1dc8c2748a789c1caff3e524040d03946152c"
+    }
+  ],
+  "post_test_additions": "Only VALIDATION.md and this sanitized validation record; code/test hashes above remain unchanged.",
+  "scope": "Execution safety/format/mocked orchestration validation, not real-genome annotation accuracy or second-machine end-to-end validation."
+}

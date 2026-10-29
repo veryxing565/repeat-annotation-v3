@@ -1,0 +1,24 @@
+name: tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  helpers-and-mock-workflow:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -r requirements.txt
+      - run: bash -n run_te_annotation_v3.sh scripts/batch_runner.sh
+      - run: perl -c patched_tools/LTR_FINDER_parallel/LTR_FINDER_parallel
+      - run: perl -c patched_tools/LTR_HARVEST_parallel/LTR_HARVEST_parallel
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/build_release.py --output "$RUNNER_TEMP/te-v3-release"

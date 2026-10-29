@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please also cite the underlying tools listed in docs/CITATIONS.md."
+type: software
+title: "Repeat annotation v3"
+version: "3.0.0rc1"
+date-released: "2026-10-29"
+license: MIT
+abstract: "Per-genome TE-library construction and soft masking using structural LTR evidence, RepeatModeler 2.0.1, Unknown-only TEclass2 classification, and RepeatMasker."
+authors:
+  - name: "Repeat annotation v3 contributors"

@@ -1,0 +1,3 @@
+# sample_id<TAB>absolute_genome_path; replace the illustrative paths below
+Species_one	/path/to/genomes/species_one.fa.gz
+Species_two	/path/to/genomes/species_two.fasta
